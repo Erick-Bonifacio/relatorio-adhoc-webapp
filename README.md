@@ -1,12 +1,29 @@
-# React + Vite
+# Interface Web para Geração de Relatórios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é a interface frontend da aplicação de geração de relatórios ad hoc. Desenvolvido em **React** com **Vite**, ele se comunica com o backend (disponível em outro repositório) para permitir que o usuário configure filtros, selecione colunas e visualize os resultados.
 
-Currently, two official plugins are available:
+> **Importante:** este projeto **depende do backend** para funcionar corretamente. Verifique se o backend está rodando localmente ou configurado em ambiente de produção antes de iniciar o frontend. Subistitua URL_BASE em api.js para a URL do backend local!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Pré-requisitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (recomendado: versão 18 ou superior)
+- Backend configurado e em execução (HTTP API)
+
+---
+
+## Como iniciar o projeto
+
+1. Clone este repositório em sua máquina.
+2. Acesse a pasta do projeto no seu editor de código.
+3. Instale as dependências com o gerenciador de pacotes de sua preferência (ex: npm ou yarn).
+
+## Funcionalidades
+
+- Formulário dinâmico para montagem de filtros
+- Seleção de colunas e agregações
+- Requisições ao backend via API REST
+- Exibição dos resultados dos relatórios em tempo real
+
+![alt text](image.png)
