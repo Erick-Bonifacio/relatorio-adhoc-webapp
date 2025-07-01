@@ -4,6 +4,8 @@ Este projeto é a interface frontend da aplicação de geração de relatórios 
 
 > **Importante:** este projeto **depende do backend** para funcionar corretamente. Verifique se o backend está rodando localmente ou configurado em ambiente de produção antes de iniciar o frontend. Subistitua URL_BASE em api.js para a URL do backend local!
 
+Veja em https://github.com/Erick-Bonifacio/relatorio-adhoc-bdII
+
 ---
 
 ## Pré-requisitos
