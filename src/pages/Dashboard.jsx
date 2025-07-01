@@ -131,7 +131,7 @@ const Dashboard = () => {
     setData([]);
     const mappedAggregations = {};
     agregacoes.forEach((agg, i) => {
-      mappedAggregations[`agg.campo`] = [agg.tipo, agg.campo];
+      mappedAggregations[agg.campo] = [agg.tipo, agg.campo];
     });
 
     const mappedFilters = filters.map(f => ({
